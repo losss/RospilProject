@@ -1,0 +1,44 @@
+Rospil directory structure:
+
+/
+	/core
+	/config
+		/css
+		/i
+		/js
+		/lib
+		/logs
+		/tpl
+	/files
+		/tmp
+	/img
+		/avatar
+			/big
+			/small
+			/tmp
+		/orgs
+		/pic
+			/tmp
+		/tmp
+	/project
+		/css
+		/i
+		/js
+		/modules
+			/404
+			/access
+			/actions
+			/ajax
+			/api
+			/generic
+			/posts
+			/readme
+			/users
+		/setup
+		/tpl
+			/access
+			/generic
+			/layout
+			/posts
+			/readme
+			/users

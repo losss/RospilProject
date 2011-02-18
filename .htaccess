@@ -1,0 +1,24 @@
+Options FollowSymLinks
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME}  !-f
+RewriteCond %{QUERY_STRING}  !ns=1$
+RewriteRule  ^((media|avatars|tmp)/.*)$ /inc/api/util/imageLoader.php?img=$1 [NS,NC,L,QSA]
+
+RewriteRule loader\.(css|js) loader.php?ext=$1 [NC,L,QSA]
+
+RewriteCond %{REQUEST_FILENAME}  -d
+RewriteRule  ^.*$  -  [L]
+
+RewriteCond %{REQUEST_FILENAME}  -f
+RewriteRule  ^.*$  -  [L]
+
+#RewriteRule ^index.php$	index.php [L]
+
+RewriteRule ^.*\.(html|php)$	- [L]
+
+RewriteRule /(.*\.(jpg|gif|swf|pps|ppt|doc|zip|png|pdf|ico|html|htm)) /$1 [skip=10]
+
+RewriteRule ^.*$	index.php [L]
+
+#RewriteRule ^([^logo.png]*)$	off.htm [L]

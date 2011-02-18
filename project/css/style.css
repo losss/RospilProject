@@ -1,0 +1,274 @@
+HTML{font-size:100.01%;}
+HTML,BODY,DIV,SPAN,APPLET,OBJECT,IFRAME,H1,H2,H3,H4,H5,H6,P,BLOCKQUOTE,PRE,A,ABBR,
+ACRONYM,ADDRESS,BIG,CITE,CODE,DEL,DFN,EM,FONT,IMG,INS,KBD,Q,S,SAMP,SMALL,STRIKE,
+STRONG,SUB,SUP,TT,VAR,DL,DT,DD,OL,UL,LI,FIELDSET,FORM,LABEL,LEGEND,TABLE,
+CAPTION,TBODY,TFOOT,THEAD,TR,TH,TD,HR {padding:0;margin:0;border:0;outline:none;
+vertical-align:baseline;font-family:inherit;}
+DFN,I,CITE,VAR,ADDRESS,EM{font-style:normal;}
+TH,B,STRONG,H1,H2,H3,H4,H5,H6{font-weight:normal;}
+TEXTAREA,INPUT,SELECT{font-family:inherit;font-size:1em;}
+SMALL{font-size:.85em;}
+OL,UL {list-style:none;}
+TABLE{border-collapse:collapse;border-spacing:0;}
+CAPTION,TH,TD{text-align:left;}
+:focus{outline:none;}
+/*-----------------------------------------------------------------------------*/
+HTML,BODY       { font-family: arial,sans-serif,verdana; font-size: 15px; 
+                  color: #000; margin: 0; padding: 0; width: 100%; height: 100%;
+                  color: #000; }
+.displaynone    { display: none; }
+.left           { float:left; }
+.right          { float:right; }
+.grey           { color: #7f7f7f; }
+.green          { color: #161; }
+.black          { color: #000; }
+.orange, .orange A { color: chocolate; }
+.tiny           { font-size: 11px; }
+A               { color: #376092; cursor: pointer; text-decoration: none; }
+A:hover         { text-decoration: underline; }
+B, STRONG       { font-weight: bold; }
+H1              { font-size: 36px; font-weight: bold; padding: 0 0 30px 0px; letter-spacing: -1px; line-height: 35px; }
+H2              { font-size: 20px; font-weight: bold; padding: 30px 0px; letter-spacing: -1px; }
+H3              { font-size: 18px; font-weight: bold;  }
+INPUT, BUTTON   { vertical-align: middle; font-size: 16px; }
+.clear          { clear: both; width: 100%; height: 0px; max-height: 0px; overflow: hidden; display: inline-block; }
+.redbackground  { background-color: #c00000; height: 35px; padding-top:13px; background: url(/project/i/redbg.png) top repeat-x;}
+.menu           { margin-left: 35px; }
+.menu, .menu A  { color: white; font-weight: bold;}
+.menu A:hover   { text-decoration: none;}
+.menu .tab      { float: left; padding: 10px 22px 8px 22px; text-align: center; margin-right: 10px;}
+.menu .tab A:hover{ text-decoration: none; }
+.menu .active   { background-color: white; }
+.menu .active A { color: black; }
+.header         { height: 110px; width: 100%; padding: 4px 0; }
+.logo           { padding-left: 21px; padding-top: 2px; }
+.reportlink     { float: right; width: 370px; padding: 50px 0px 0px 0px; font-size: 17px; font-weight: bold;}
+.searchwrapper  { margin-top: 3px; width: 340px; }
+.search INPUT   { width: 275px; font-size: 14px; padding: 3px 6px; }
+DIV.search      { width: 370px; margin-top: -4px;}
+.searchwrapper DIV{ margin: -1px 4px; cursor: pointer; float: right; }
+.bottom         { border-top: #ccc 1px solid;}
+.bottom .area   { background-color: #f0f0f0; padding: 40px 35px; font-size: 14px; color: #999; height: 60px;
+                  border-top: #e7e7e7 2px solid; }
+body            { text-align: center; min-width: 800px; background-color: #c9cdd1; }
+.inner          { background-color: white;  }
+.page           {  }
+.wrapper        { background-color: white; text-align: left; min-width: 600px;
+                  display: block; position: relative; margin: 20px auto;
+                  border: 1px solid #fff;
+                  -webkit-box-shadow: 0 0px 30px #666;
+                  -moz-box-shadow:0 0px 30px #666;
+                  box-shadow: 0 0px 30px #666;
+                  max-width: 1200px; margin-left: auto; margin-right: auto; }
+.content        { background-color: white; padding: 30px 35px;}
+.stream, .case  { max-width: 750px; }
+.side           { width: 336px; margin-left: 20px; }
+.localheader    { font-weight: bold; padding: 5px 0px;}
+P               { padding: 0px 0px 10px 0px;}
+TD              { vertical-align: top; }
+DIV.special     { border-top: #cfcfcf 1px solid; border-right: #e0e0e0 1px solid;
+                  border-left: #e0e0e0 1px solid; background-color: #EAEAEA; }
+.special .inside{ border-top: #dfdfdf 2px solid; padding: 10px 15px;  }
+.bignum         { font-size: 40px; font-weight: bold; margin-right: 5px; }
+.quickabout     { margin-top: 20px; }
+.menu .bigtitle { color: white; margin-left: 135px; font-size: 35px; font-weight: bold;
+                  letter-spacing: -1px; margin-top: -10px; }
+.report, .register, .login, .review
+                { margin-left: 137px;  }
+.inputbox       { padding-bottom: 25px; }
+.inputbox .label{ font-weight: bold; padding-bottom: 4px; }
+.inputbox INPUT,
+.inputbox TEXTAREA,
+.tinyfield INPUT,
+.smallfield INPUT,
+.medfield INPUT,
+.medfield TEXTAREA,
+.searcharea INPUT,
+.anonuser INPUT 
+                { font-size: 16px; padding: 5px 8px; width: 500px; 
+                  background: #fff url(/project/i/inpbg.png) top repeat-x; border: #95b3d7 1px solid;}
+.inputbox TEXTAREA
+                { height: 100px; }
+.inputbox .halfbox
+                { float: left; margin-right: 20px; }
+.halfbox INPUT  { font-size: 16px; padding: 5px 8px; width: 230px;
+                  background: url(/project/i/inpbg.png) top repeat-x; border: #95b3d7 1px solid; }
+.inputbox BUTTON{ font-size: 16px; font-weight: bold; padding: 3px 20px; }
+
+.errorbox       { margin: 10px 0px 30px; padding: 15px 20px; border: #ff8000 1px solid; background-color: #ffe9d2;}
+.errorbox .title{ font-size: 18px; font-weight: bold; padding-bottom: 10px;}
+.readme ol      { list-style-type: decimal; padding-left: 40px; }
+.readme         { max-width: 800px;}
+.userhi         { color: #7f7f7f; font-size: 12px; margin-left: -200px; margin-top: 80px;}
+.row .label     { width: 120px; color:#7f7f7f; font-weight: bold; padding: 5px 0px;}
+.row .desc      { margin-left: 135px; font-size: 16px; padding: 5px 0px; max-width: 580px;}
+.row .textdesc  { margin-left: 135px; font-size: 13px; padding: 5px 0px;}
+.enhanced       { font-weight: bold; }
+.review .item   { padding-bottom: 20px; border-bottom: 1px #cfcfcf solid; margin-bottom: 30px;}
+.stream .item   { padding-bottom: 30px; }
+.red, .red A    { color: #c00000; }
+/* .adminarea      { width: 200px;} */
+.small          { font-size: 12px; }
+.publish .row   { margin-bottom: 6px;}
+.publish .row .label
+                { width: 100px; }
+.publish .row .desc, .tinyfield
+                { margin-left: 125px; }
+.tinyfield INPUT{ width: 90px; }
+.smallfield INPUT
+                { width: 170px; }
+.smallfield     { padding-right: 10px;}
+.sidefield INPUT,
+.sidefield TEXTAREA
+                { width: 270px; font-size: 14px; }
+.medfield INPUT,
+.medfield TEXTAREA
+                { width: 370px;  }
+.medfield TEXTAREA
+                { font-size: 12px; height: 130px; }
+.petitionedit   { background-color: #ECF1F8; width: 520px; padding: 10px 20px; height: 630px;
+                  margin-top: -10px; }
+.petitionedit TEXTAREA { height: 440px; font-size: 13px;  }
+.bordertop      { border-top: 1px #cfcfcf solid; }
+.borderbottom   { border-bottom: 1px #cfcfcf solid; }
+.block          { margin: 20px 0px; padding: 20px 0px; }
+.smallpadding   { padding-bottom: 10px; }
+.field SELECT   { width: 518px; margin-top: -1px; }
+.medfield SELECT{ width: 388px; margin-top: -1px; }
+.case .title    { }
+.case .statusbar, .stream .bodyarea .statusbar
+                { padding: 8px 0px; font-size: 12px; margin: 0px 0px 10px; border-bottom: 1px solid #cfcfcf; width:100%; }
+.stream .bodyarea
+                { width: 100%; }
+.redbg          { background-color: #f5dcd8; }
+.greenbg        { background-color: #d7e4bd; }
+.statusbar .found, .statusbar .status
+                { padding-right: 30px;}
+.case .link     { padding: 20px 0px;}
+.addcomment     { padding: 10px 0px;}
+.addcomment TEXTAREA
+                { font-size: 16px; padding: 5px 8px; width: 100%; height: 60px;
+                  background: #fff url(/project/i/inpbg.png) top repeat-x; border: #95b3d7 1px solid; }
+.anonuser       { margin: 10px 0px; }
+.anonuser INPUT { width: 180px; }
+.case           { width: 100%; }
+.comments       { width: 100%; margin-top: 40px; }
+.comments .list { margin: 30px 0px; width: 100%; }
+.comment        { width: 100%; font-size: 13px; margin: 20px 0px; border-bottom: #cfcfcf 1px solid; padding-bottom: 15px;  }
+.comment .when  { font-size: 10px; color:#999; }
+.comment .who   { width: 110px; }
+.comment .name  { font-weight: bold; padding-bottom: 3px;  }
+.comment .what  { margin-left: 120px;}
+.petition       { margin: 30px 0px; font-size: 12px; }
+.todo ol        { list-style-type: decimal; padding-left: 20px; }
+.todo ol li textarea
+                { width: 300px; height: 130px; font-size: 11px; }
+.todo ol li     { padding: 5px 0px; }
+.row .title     { font-size: 28px; line-height: 29px; margin-bottom: 10px; letter-spacing: -1px; font-weight: bold; }
+
+/* should be below all textarea & input definitions */
+INPUT.highlighted, TEXTAREA.highlighted
+                { border: #c00000 1px solid; background: none; background-color: #ffb; }
+.orglist        { margin-top: 10px; }
+.orglist .org   { margin-bottom: 40px;}
+.org .pic       { width: 90px; padding-top: 5px; }
+.org .body      { margin-left: 115px; }
+.org .body .title
+                { font-size: 22px; font-weight: bold; letter-spacing: -1px; }
+.org .body .score
+                { font-size: 16px; font-weight: bold; padding: 5px 0px;}
+.numcases       { margin: 20px 0px 10px; font-size: 16px; font-weight: bold; }
+.editchief      { margin-top: 20px; font-size: 11px;}
+.editchief A    { color: #ff8000; }
+.chiefform      { margin-top: 20px; }
+.chiefform A    { font-size: 11px; }
+.org .body .chief{ margin: 2px 0px 0px; }
+.side .chief    { margin-top: 20px;}
+.pages-box      { margin: 40px 0 20px 0; float: left; clear: both; }
+.pages-box LI   { float: left; margin: 0 10px 0 0; font-size: 21px; font-weight: bold; }
+.pages-box LI A { padding: 0 10px 0 10px; line-height: 30px; border: 1px solid #CCC; text-decoration: none;
+                  line-height: 30px; display: block; }
+.pages-box LI#gray {
+                  padding: 0 10px 0 10px; line-height: 30px; border: 1px solid #ddd; text-decoration: none;
+                  line-height: 30px; display: block; color: #999; background-color:#f0f0f0;
+                  float: left; margin: 0 10px 0 0; font-size: 21px; font-weight: bold; }
+.pages-box LI A:hover { border: 1px solid #0B46BD; }
+.pages-box LI.alt A { background: #CCC; }
+.pages-box LI.next{ margin: 0 50px 0 0; }
+.searchresults .summary { font-size: 12px; padding: 10px; color: #7f7f7f; margin-bottom: 20px; border-bottom: 1px solid #ddd; }
+.searchresults  { min-height: 400px; max-width: 770px; }
+.searchorg, .searchleads { margin-top: 20px; }
+.searchorg .title { margin-top: -2px; font-weight: bold; margin-left: 10px; }
+.searchorg .chief{ margin-top: 3px;  margin-left: 10px; }
+.hl             { background-color: #fff200; padding: 2px 4px;  }
+.searchleads .description { font-size: 12px; }
+.searchorg .description { font-size: 12px; padding: 5px 10px; }
+.searchleads .title { padding-bottom: 5px;  font-weight: bold;  }
+.searchorg .body { max-width: 600px; }
+.chief .pic     { padding-top: 10px;}
+.redarea        { width: 125px; background-color: #c00000; padding: 4px 8px; font-weight: bold; color: white; font-size: 18px; }
+.greenarea      { width: 125px; background-color: #161; padding: 4px 8px; font-weight: bold; color: white; font-size: 18px; }
+.greyarea       { width: 125px; background-color: #ccc; padding: 4px 8px; font-weight: bold; color: white; font-size: 18px; }
+.orgarea        { margin-left: 125px; padding: 6px 0px 6px 26px; font-size: 15px; color: black; font-weight: bold; }
+.graybg         { background-color: #eaeaea; }
+.orgarea A      { color: black; }
+.casedesc       { font-size: 13px; padding-bottom: 10px; line-height: 18px; }
+.case .description { font-size: 13px; line-height: 18px; padding-top: 10px; }
+.experts        { margin-left: 135px; margin-bottom: 50px;}
+.findexpert     { margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px solid #cfcfcf; }
+.expert .row DIV{ width: 230px; margin-right: 30px;}
+.expert         { padding: 30px 0px 0px;}
+.selected       { background-color: #c00; color: white; margin-right: 30px;}
+.selected A     { color: white; text-decoration: none;  }
+.selection      { margin-bottom: 20px; }
+.selection .regular { padding: 6px 12px 6px 0px; margin-right: 30px; }
+.selection .selected { padding: 6px 12px; }
+.adminarea DIV  { padding-bottom: 20px; }
+.uploadframe    { width:1px;height:1px; border:0px solid #fff; display:none; }
+.leadpic        { margin: 10px 0px;}
+.notification   { font-size: 14px; margin: 0px 0px 20px 0px; padding: 20px; background-color: #ffeecc; border: #fc7 1px solid; }
+.whyfraud       { font-size: 13px; padding: 8px 0px 0px 35px; background: url(/project/i/quote.png) no-repeat left top;
+                  margin-top: 10px; min-height: 18px; color: #7f7f7f; font-style: italic;}
+.bottom20       { padding-bottom: 20px;}
+.top20          { padding-top: 20px;}
+.right10        { padding-right: 10px;}
+.whoiswho       { font-size: 14px; color: #7f7f7f; border: #dfdfdf 1px solid; background-color: #f7f7f7; padding: 10px; }
+.expertdoc      { margin-left: 20px; padding-left: 14px; background: url(/project/i/doc.png) no-repeat left center; }
+BUTTON#postadd  { font-size: 14px!important; }
+TEXTAREA#addtoleadtext { width: 100%; min-height: 40px; }
+.addts          { color: #7f7f7f; font-size: 11px; }
+.added          { font-size: 13px; padding: 10px 0px 8px; margin-bottom: 10px; border-bottom: 1px dotted #ccc; }
+.pcounter       { margin: 20px 0px; padding: 10px 20px; -webkit-box-shadow: 1px 1px 4px #666; -moz-box-shadow: 1px 1px 4px #666;
+                  box-shadow: 1px 1px 4px #666; }
+.pcounter #petitioncount { font-size: 36px; }
+.biglink        { font-size: 24px; text-align: center; }
+.sharecase      { padding-bottom: 30px; }
+.who .admin     { color: #000; }
+.who .expert    { color: #000; }
+#share_twitter, #share_facebook, #share_vkontakte  { padding-bottom: 15px; }
+.w550           { width: 550px!important; }
+.w370           { width: 370px!important; }
+.paddingtop     { padding-top: 20px; }
+.regexperts     { float: left; font-weight: bold; padding-top: 50px; padding-left: 60px; font-size: 17px; }
+.listcontainer  { margin-bottom: 30px; padding-bottom: 30px; }
+.help           { background-color: #eee; padding: 16px 20px; }
+.numbered       { list-style-type: decimal!important; padding-left: 20px; }
+.numbered LI    { padding: 4px 0px; }
+.smaller        { font-size: 12px; }
+.donate         { color: white; background-color: #c00000; padding: 10px; }
+.donate .big    { font-size: 25px; font-weight: bold; text-transform: uppercase; }
+.donate SPAN    { font-size: 20px; }
+.donate A       { color: white; }
+.text .boxed    { padding: 10px; background-color: #999; color: white ; font-size: 28px; }
+TABLE.expenses  { margin-top: 20px; }
+.expenses TD    { padding: 4px 6px; border: 1px solid #ccc; }
+.expenses TD.head { background-color: #efefef; font-weight: bold; }
+.bigger         { font-size: 150%; }
+.standalone     { margin: 30px 0px; min-height: 10px; }
+.w550           { width: 550px!important; }
+.w650           { width: 650px!important; }
+.w370           { width: 370px!important; }
+.h300           { min-height: 300px!important; }
+.bullets        { list-style: square; }
+UL.bullets LI   { padding-bottom: 10px; }
+UL.bullets      { margin-left: 16px; }

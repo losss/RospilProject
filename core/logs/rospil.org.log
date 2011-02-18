@@ -1,0 +1,113 @@
+02/07/2011 11:34:38 127.0.0.1:63296   [AJAX] f is not set 1
+02/07/2011 12:28:02 127.0.0.1:63548 ! C:\www\rospil.info\html\tests.php at 12
+C:\www\rospil.info\html\project\modules\posts\c_posts_API.php at 378
+C:\www\rospil.info\html\project\API.php at 86
+C:\www\rospil.info\html\core\dbconnector.php at 80
+C:\www\rospil.info\html\core\logger.php at 43
+SELECT * FROM comments WHERE (leadid=) AND (deleted_ts IS NULL) ORDER BY commentid ASC LIMIT 100
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND (deleted_ts IS NULL) ORDER BY commentid ASC LIMIT 100' at line 1
+02/07/2011 12:28:36 127.0.0.1:63560 ! C:\www\rospil.info\html\tests.php at 12
+C:\www\rospil.info\html\project\modules\posts\c_posts_API.php at 378
+C:\www\rospil.info\html\project\API.php at 86
+C:\www\rospil.info\html\core\dbconnector.php at 80
+C:\www\rospil.info\html\core\logger.php at 43
+SELECT * FROM comments WHERE (leadid=) AND (deleted_ts IS NULL) ORDER BY commentid ASC LIMIT 100
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND (deleted_ts IS NULL) ORDER BY commentid ASC LIMIT 100' at line 1
+02/07/2011 12:28:52 127.0.0.1:63562 ! C:\www\rospil.info\html\tests.php at 12
+C:\www\rospil.info\html\project\modules\posts\c_posts_API.php at 378
+C:\www\rospil.info\html\project\API.php at 86
+C:\www\rospil.info\html\core\dbconnector.php at 80
+C:\www\rospil.info\html\core\logger.php at 43
+SELECT * FROM comments WHERE (leadid=) AND (deleted_ts IS NULL) ORDER BY commentid ASC LIMIT 15, 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND (deleted_ts IS NULL) ORDER BY commentid ASC LIMIT 15, 1' at line 1
+02/07/2011 12:29:09 127.0.0.1:63570 ! C:\www\rospil.info\html\tests.php at 12
+C:\www\rospil.info\html\project\modules\posts\c_posts_API.php at 378
+C:\www\rospil.info\html\project\API.php at 86
+C:\www\rospil.info\html\core\dbconnector.php at 80
+C:\www\rospil.info\html\core\logger.php at 43
+SELECT * FROM comments WHERE (leadid=) AND (deleted_ts IS NULL) ORDER BY commentid ASC LIMIT 15, 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND (deleted_ts IS NULL) ORDER BY commentid ASC LIMIT 15, 1' at line 1
+02/13/2011 04:31:36 127.0.0.1:56446 ! C:\www\rospil.info\html\index.php at 5
+C:\www\rospil.info\html\core\core.php at 82
+C:\www\rospil.info\html\project\root.php at 29
+C:\www\rospil.info\html\project\modules\generic\c_generic_Search.php at 22
+C:\www\rospil.info\html\project\modules\generic\c_generic_Search.php at 31
+C:\www\rospil.info\html\project\modules\generic\c_generic_Search.php at 38
+C:\www\rospil.info\html\project\modules\posts\c_posts_API.php at 165
+C:\www\rospil.info\html\project\API.php at 86
+C:\www\rospil.info\html\core\dbconnector.php at 80
+C:\www\rospil.info\html\core\logger.php at 43
+SELECT * FROM leads WHERE (deleted_ts IS NULL) AND (published_ts IS NOT NULL) AND (0  OR ( title REGEXP '[[:проспект:]]' )  OR ( description REGEXP '[[:проспект:]]' )  OR ( contact_name REGEXP '[[:проспект:]]' )  OR ( contact_phone REGEXP '[[:проспект:]]' )  OR ( contact_email REGEXP '[[:проспект:]]' )  OR ( org_name REGEXP '[[:проспект:]]' )  OR ( petition_org_name REGEXP '[[:проспект:]]' )  ) 
+Got error 'invalid character class' from regexp
+02/13/2011 04:33:18 127.0.0.1:56461 ! C:\www\rospil.info\html\index.php at 5
+C:\www\rospil.info\html\core\core.php at 82
+C:\www\rospil.info\html\project\root.php at 29
+C:\www\rospil.info\html\project\modules\generic\c_generic_Search.php at 22
+C:\www\rospil.info\html\project\modules\generic\c_generic_Search.php at 31
+C:\www\rospil.info\html\project\modules\generic\c_generic_Search.php at 38
+C:\www\rospil.info\html\project\modules\posts\c_posts_API.php at 165
+C:\www\rospil.info\html\project\API.php at 86
+C:\www\rospil.info\html\core\dbconnector.php at 80
+C:\www\rospil.info\html\core\logger.php at 43
+SELECT Array FROM leads WHERE (deleted_ts IS NULL) AND (published_ts IS NOT NULL) AND (0  OR ( title REGEXP 'проспект' )  OR ( description REGEXP 'проспект' )  OR ( contact_name REGEXP 'проспект' )  OR ( contact_phone REGEXP 'проспект' )  OR ( contact_email REGEXP 'проспект' )  OR ( org_name REGEXP 'проспект' )  OR ( petition_org_name REGEXP 'проспект' )  ) 
+Unknown column 'Array' in 'field list'
+02/13/2011 04:33:24 127.0.0.1:56463 ! C:\www\rospil.info\html\index.php at 5
+C:\www\rospil.info\html\core\core.php at 82
+C:\www\rospil.info\html\project\root.php at 29
+C:\www\rospil.info\html\project\modules\generic\c_generic_Search.php at 22
+C:\www\rospil.info\html\project\modules\generic\c_generic_Search.php at 31
+C:\www\rospil.info\html\project\modules\generic\c_generic_Search.php at 38
+C:\www\rospil.info\html\project\modules\posts\c_posts_API.php at 165
+C:\www\rospil.info\html\project\API.php at 86
+C:\www\rospil.info\html\core\dbconnector.php at 80
+C:\www\rospil.info\html\core\logger.php at 43
+SELECT Array FROM leads WHERE (deleted_ts IS NULL) AND (published_ts IS NOT NULL) AND (0  OR ( title REGEXP 'проспект' )  OR ( description REGEXP 'проспект' )  OR ( contact_name REGEXP 'проспект' )  OR ( contact_phone REGEXP 'проспект' )  OR ( contact_email REGEXP 'проспект' )  OR ( org_name REGEXP 'проспект' )  OR ( petition_org_name REGEXP 'проспект' )  ) 
+Unknown column 'Array' in 'field list'
+02/13/2011 04:33:35 127.0.0.1:56467 ! C:\www\rospil.info\html\index.php at 5
+C:\www\rospil.info\html\core\core.php at 82
+C:\www\rospil.info\html\project\root.php at 29
+C:\www\rospil.info\html\project\modules\generic\c_generic_Search.php at 22
+C:\www\rospil.info\html\project\modules\generic\c_generic_Search.php at 31
+C:\www\rospil.info\html\project\modules\generic\c_generic_Search.php at 38
+C:\www\rospil.info\html\project\modules\posts\c_posts_API.php at 165
+C:\www\rospil.info\html\project\API.php at 86
+C:\www\rospil.info\html\core\dbconnector.php at 80
+C:\www\rospil.info\html\core\logger.php at 43
+SELECT Array FROM leads WHERE (deleted_ts IS NULL) AND (published_ts IS NOT NULL) AND (0  OR ( title REGEXP '[[:<:]]проспект[[:>:]]' )  OR ( description REGEXP '[[:<:]]проспект[[:>:]]' )  OR ( contact_name REGEXP '[[:<:]]проспект[[:>:]]' )  OR ( contact_phone REGEXP '[[:<:]]проспект[[:>:]]' )  OR ( contact_email REGEXP '[[:<:]]проспект[[:>:]]' )  OR ( org_name REGEXP '[[:<:]]проспект[[:>:]]' )  OR ( petition_org_name REGEXP '[[:<:]]проспект[[:>:]]' )  ) 
+Unknown column 'Array' in 'field list'
+02/13/2011 04:34:54 127.0.0.1:56480 ! C:\www\rospil.info\html\index.php at 5
+C:\www\rospil.info\html\core\core.php at 82
+C:\www\rospil.info\html\project\root.php at 29
+C:\www\rospil.info\html\project\modules\generic\c_generic_Search.php at 22
+C:\www\rospil.info\html\project\modules\generic\c_generic_Search.php at 31
+C:\www\rospil.info\html\project\modules\generic\c_generic_Search.php at 38
+C:\www\rospil.info\html\project\modules\posts\c_posts_API.php at 165
+C:\www\rospil.info\html\project\API.php at 86
+C:\www\rospil.info\html\core\dbconnector.php at 80
+C:\www\rospil.info\html\core\logger.php at 43
+SELECT Array FROM leads WHERE (deleted_ts IS NULL) AND (published_ts IS NOT NULL) AND (0  OR ( title REGEXP '[[:<:]]проспект[[:>:]]' )  OR ( description REGEXP '[[:<:]]проспект[[:>:]]' )  OR ( contact_name REGEXP '[[:<:]]проспект[[:>:]]' )  OR ( contact_phone REGEXP '[[:<:]]проспект[[:>:]]' )  OR ( contact_email REGEXP '[[:<:]]проспект[[:>:]]' )  OR ( org_name REGEXP '[[:<:]]проспект[[:>:]]' )  OR ( petition_org_name REGEXP '[[:<:]]проспект[[:>:]]' )  ) 
+Unknown column 'Array' in 'field list'
+02/13/2011 05:15:19 127.0.0.1:57548 ! C:\www\rospil.info\html\index.php at 5
+C:\www\rospil.info\html\core\core.php at 82
+C:\www\rospil.info\html\project\root.php at 29
+C:\www\rospil.info\html\project\modules\generic\c_generic_Search.php at 22
+C:\www\rospil.info\html\project\modules\generic\c_generic_Search.php at 31
+C:\www\rospil.info\html\project\modules\generic\c_generic_Search.php at 38
+C:\www\rospil.info\html\project\modules\posts\c_posts_API.php at 165
+C:\www\rospil.info\html\project\API.php at 86
+C:\www\rospil.info\html\core\dbconnector.php at 80
+C:\www\rospil.info\html\core\logger.php at 43
+SELECT * FROM leads WHERE (deleted_ts IS NULL) AND (published_ts IS NOT NULL) AND (0  OR ( title REGEXP '\право\' )  OR ( description REGEXP '\право\' )  OR ( contact_name REGEXP '\право\' )  OR ( contact_phone REGEXP '\право\' )  OR ( contact_email REGEXP '\право\' )  OR ( org_name REGEXP '\право\' )  OR ( petition_org_name REGEXP '\право\' )  ) 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\право\' )  OR ( contact_name REGEXP '\право\' )  OR ( contact_phone R' at line 1
+02/13/2011 05:15:29 127.0.0.1:57553 ! C:\www\rospil.info\html\index.php at 5
+C:\www\rospil.info\html\core\core.php at 82
+C:\www\rospil.info\html\project\root.php at 29
+C:\www\rospil.info\html\project\modules\generic\c_generic_Search.php at 22
+C:\www\rospil.info\html\project\modules\generic\c_generic_Search.php at 31
+C:\www\rospil.info\html\project\modules\generic\c_generic_Search.php at 38
+C:\www\rospil.info\html\project\modules\posts\c_posts_API.php at 165
+C:\www\rospil.info\html\project\API.php at 86
+C:\www\rospil.info\html\core\dbconnector.php at 80
+C:\www\rospil.info\html\core\logger.php at 43
+SELECT * FROM leads WHERE (deleted_ts IS NULL) AND (published_ts IS NOT NULL) AND (0  OR ( title REGEXP '\\право\\' )  OR ( description REGEXP '\\право\\' )  OR ( contact_name REGEXP '\\право\\' )  OR ( contact_phone REGEXP '\\право\\' )  OR ( contact_email REGEXP '\\право\\' )  OR ( org_name REGEXP '\\право\\' )  OR ( petition_org_name REGEXP '\\право\\' )  ) 
+Got error 'trailing backslash (\)' from regexp
